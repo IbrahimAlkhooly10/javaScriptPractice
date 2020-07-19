@@ -8,14 +8,5 @@ confirm('how are you')
 false
 confirm('how are you');
 true
-prompt('are how are you ');
+prompt('ibrahim is sleepy boy ')
 ""
-prompt('how are you')
-"very good"
-console('are you fine');
-console('are you good');
-console('what are you doing');
-//ibrahim is sleepy boy
-/*
-this is a multi line comment
-*/
