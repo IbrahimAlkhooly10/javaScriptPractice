@@ -1,4 +1,4 @@
-let ibrahim = 'ibrahim'
+let name = 'ibrahim'
 let age = 10
 let grade = 'fifth grade '
 alert('hello there');
