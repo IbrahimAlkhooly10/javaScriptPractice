@@ -1,10 +1,12 @@
 body {
     background-color: lightblue;
+    border: 20px solid #0b90e9;
+    padding: 33px;
 
 }
 table {
-    color: darkcyan;
-    background-color:blueviolet;
+    color: purple;
+    background-color:gold;
 }
 
 li {
@@ -16,6 +18,14 @@ li {
     background-color: white;
     margin: 10px 0;
     padding: 10px;
+}
+h1:hover{
+    color: peru;
+
+}
+table:hover{
+    color: navy;
+    background-color: lawngreen;
 }
 p {
     color:gold;
@@ -30,15 +40,17 @@ p {
 title {
     font-size: 30px;
 }
+li {
+    width: 200px;
+    border: 2px solid rgb(42, 204, 69);
+    background-color:plum;
+}
 
 li a{
     color: yellow;
     background-color: forestgreen;
   
-}
 
-.bateekh p {
-    color: rgb(211, 181, 181);
 }
 
 form {
@@ -51,7 +63,7 @@ h1 {
     color: yellow;
    
 }
-span {
-    font-size: 2.0em;
-    font-family: sans-serif;
-}
+
+
+    
+
