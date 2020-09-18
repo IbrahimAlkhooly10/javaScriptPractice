@@ -1,6 +1,7 @@
 body {
     background-color: lightblue;
     border: 20px solid #0b90e9;
+    border-radius: 55px;
     padding: 33px;
 
 }
@@ -9,10 +10,14 @@ table {
     background-color:gold;
 }
 
-li {
- color: purple;
- padding: 12;
+/* li { */
+ /* color: purple; */
+ /* padding: 12; */
 }
+
+/* title{
+    t
+} */
 
 .first-form {
     background-color: white;
