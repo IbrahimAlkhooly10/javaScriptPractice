@@ -1,3 +1,12 @@
 body {
-  background-color: rgb(55, 119, 192);
+  background-color: rgb(71, 221, 139);
 }
+table {
+  margin: 13px 0 0 44px;
+  color: red;
+  border: purple;
+}
+h1 {
+  color: gold;
+}
+
