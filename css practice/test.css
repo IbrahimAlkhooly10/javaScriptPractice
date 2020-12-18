@@ -2,11 +2,15 @@ body {
   background-color: rgb(71, 221, 139);
 }
 table {
-  margin: 13px 0 0 44px;
+  margin: auto;
   color: red;
-  border: purple;
+  border: solid 1px purple;
+  max-width: 50%;
 }
 h1 {
   color: gold;
 }
-
+td {
+  border: solid 1px purple;
+  padding: 5px;
+}
