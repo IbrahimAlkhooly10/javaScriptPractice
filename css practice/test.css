@@ -1,12 +1,13 @@
 body {
   background-color: rgb(71, 221, 139);
-  font-family: "roboto" sans-serif
+  font-family: 'Courgette', cursive;
 }
 table {
   margin: auto;
-  color: red;
+  color:blue;
   border: solid 1px purple;
   max-width: 50%;
+  margin-bottom: 44px;
 }
 h1 {
   color: gold;
