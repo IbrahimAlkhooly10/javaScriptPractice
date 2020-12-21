@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(71, 221, 139);
+  background-color: rgb(10, 238, 181);
   font-family: 'Courgette', cursive;
 }
 table {
@@ -7,7 +7,7 @@ table {
   color:blue;
   border: solid 1px purple;
   max-width: 50%;
-  margin-bottom: 44px;
+  margin-bottom: 50px;
 }
 h1 {
   color: gold;
@@ -15,4 +15,8 @@ h1 {
 td {
   border: solid 1px purple;
   padding: 5px;
+}
+form {
+  margin: auto;
+  max-width: 30%;
 }

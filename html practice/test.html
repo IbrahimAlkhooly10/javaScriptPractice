@@ -17,8 +17,7 @@
               <th>picture of countries</th>
               <th>the name of the countries</th>
               <th>the history of the countries  </th>
-             
-            </tr>
+           </tr>
           </thead>
           <tbody>
             <tr>
@@ -40,6 +39,7 @@
               <td><img width="360" src="https://www.costacruises.eu/content/dam/costa/inventory-assets/ports/SIN/sin-singapore-port-1.jpg.image.750.563.low.jpg"></td>
               <td>singapore</td>
               <td>According to legend Singapore was founded centuries ago when a prince from Sumatra landed on the island and saw a lion. He took it as a good omen and founded a city called Singapura, which means lion city. ... Modern Singapore was founded in 1819 by Sir Stamford Raffles</td>
+              
             </tr>
           </tbody>
         </table>
@@ -51,6 +51,7 @@
                 <th>the flag of the countries</th>
                <th>the countries</th>
                <th>The qualities of the flag</th>
+               
             </tr>
           </thead>
           <tbody>
@@ -58,7 +59,7 @@
               <td><img width="370" src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg"></td>
               <td>turkey</td>
               <td>The flag of Turkey, officially the Turkish flag (Turkish: Türk bayrağı) is a red flag featuring a white star and crescent. The flag is often called al bayrak (the red flag), and is referred to as al sancak (the red banner) in the Turkish national anthem.</td>
-            </tr>
+             </tr>
             <tr>
               <td><img width="370" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/1200px-Flag_of_Malaysia.svg.png" ></td>
               <td>malaysia</td>
@@ -67,8 +68,7 @@
             <tr>
               <td><img width="370" src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg"></td>
               <td>indonesia</td>
-              <td>The Flag of Indonesia is a simple bicolor with two equal horizontal bands, red (top) and white (bottom) with an overall ratio of 2:3.
-                ...</td>
+              <td>The Flag of Indonesia is a simple bicolor with two equal horizontal bands, red (top) and white (bottom) with an overall ratio of 2:3....</td>
             </tr>
             <tr>
               <td><img width="370" src="https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg"></td>
@@ -78,22 +78,42 @@
           </tbody>
         </table>
        </div>
+       <table>
+         <thead>
+           <tr>
+             <th>the countries</th>
+             <th>the popla</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td></td>
+             <td></td>
+           </tr>
+           <tr>
+             <td></td>
+             <td></td>
+           </tr>
+           <tr>
+             <td></td>
+             <td></td>
+           </tr>
+         </tbody>
+       </table>
         <div class="container 4">
        <form action="countries">
          <p>
          <label for="username">Enter a Username:</label>
-         <input type="text" placeholder="username" id="username" name="Username">
+         <input type="text" placeholder="username" id="username" name="Username" minlength="5" maxlength="20">
         </p>
         <p>
          <label for="password">Enter a Password:</label>
-         <input type="password" placeholder="password" id="password" name="Password">
+         <input type="password" placeholder="password" id="password" name="Password" minlength="5" maxlength="20">
         </p>
          <label for="number">how old are you</label> 
-         <input type="number" placeholder="Enter a number" id="number" name="number">
-        
+         <input type="number" placeholder="Enter a number" id="number" name="number" minlength="5" maxlength="20">
+         <h2>what country you love</h2>
        </form>
-          <button>submit</button>
-          <h2>wht country you love</h2>
           <form action="/box">
           <input type="checkbox" name="agree-toy" id="agree"> 
           <label for="agree">turkey</label>
@@ -108,7 +128,7 @@
           <label for="agree">singapore</label>
         <p>
           <label for="my website">what is wore option about the website:</label>
-          <input type="range" id="my website" min="1" max="10">
+          <input type="range" id="my website" min="1" max="10" minlength="5" maxlength="20">
         </p>
         <p>
           <label for="requests">Any special requests</label>
@@ -121,9 +141,10 @@
       <form action="/duumy">
          <h2>what is your name</h2>
          <label for="ibrahim">enter your name</label>
-         <input type="text" placeholder="enter a name" name="ibrahim" id="ibrahim" required>
+         <input type="text" placeholder="enter a name" name="ibrahim" id="ibrahim" minlength="5" maxlength="20">
+         <button>submit</button>
       </form>
-          <button>submit</button>
+         
 
         
         <hr>
