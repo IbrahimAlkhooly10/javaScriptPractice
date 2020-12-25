@@ -23,8 +23,9 @@ form {
   border:2px solid blue;
   border-radius: 22px ;
   padding: 11px;
- 
 }
-
+button {
+  color: brown;
+}
 
 
