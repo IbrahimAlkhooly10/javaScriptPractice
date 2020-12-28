@@ -1,12 +1,26 @@
 body {
     background-color: rgb(11, 237, 245);
+    margin-bottom: 22px;
+    font-family: 'Courgette', cursive;
 }
 p {
-    color: rgb(0, 2, 150);
-    border: 5px solid blue;
     border-radius: 12px;
     padding: 10px 0px 10px 10px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 3px;
+    text-decoration: rgb(7, 21, 145) underline;
+    font-size: 40px;
+}
+table {
+    text-align: center;
+    color: rgb(64, 5, 131);
+    background-color: rgb(167, 235, 8);
+    margin: auto;
+    max-width: 50%;
 }
 
-
-    
