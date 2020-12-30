@@ -1,7 +1,10 @@
 body {
-    background-color: rgb(11, 237, 245);
+    background-color: rgb(34, 7, 7);
     margin-bottom: 22px;
     font-family: 'Courgette', cursive;
+    border: turquoise solid 2px;
+    border-radius: 5px;
+    
 }
 p {
     border-radius: 12px;
@@ -9,18 +12,58 @@ p {
     font-weight: 700;
     line-height: 1.4;
     letter-spacing: 1px;
+    color: royalblue;
 }
 h1 {
+    
     text-align: center;
     margin-bottom: 3px;
     text-decoration: rgb(7, 21, 145) underline;
     font-size: 40px;
+    color: rgb(252, 233, 63);
 }
 table {
     text-align: center;
     color: rgb(64, 5, 131);
     background-color: rgb(167, 235, 8);
+    color: rgb(104, 13, 104);
     margin: auto;
     max-width: 50%;
+    margin-bottom: 11px;
+}
+table:hover {
+    background-color: black;
+    color: blue;
+}
+h1:hover {
+    color: orangered;
+}
+h2 {
+    color: lawngreen;
+}
+h3 {
+    margin: auto;
+    max-width: 21%;
+    color: wheat;
+    margin-bottom: 6px;
+}
+table {
+    width: 900px;
+}
+.item-2 {
+    color: red;
+}
+p::selection {
+    background-color: rgb(252, 233, 63);
+}
+ol {
+    color: springgreen;
+    margin: auto;
+    max-width: 25%;
+    border: teal solid 3px;
+}
+li {
+    border: royalblue solid 3px;
+    padding: 7px;
 }
 
