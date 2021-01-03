@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(197, 117, 12);
+}
+.box-1 {
+    border: lightseagreen solid 7px;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+    color: rgb(128, 39, 4);
+    font-size: 44px;
+    text-decoration: crimson underline;
+}
+h1:hover {
+    color: rgb(219, 0, 0);
+}
+h1::selection {
+    color: gold;
+}
+td  {
+    padding: 5px;
+}
+td::selection{
+    background-color: rgb(121, 10, 224);
+}
+table {
+    margin: auto;
+    /* max-width: 60%; */
+    background-color: black;
+    border: teal solid 5px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.table-notes {
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    padding: 10px;
+    margin: 33% 10px;
+}
