@@ -3,35 +3,44 @@ body {
     color: rgba(197, 117, 12,4);
     font-family: 'Courgette', cursive;
 }
+
 .box-1 {
     border: lightseagreen solid 7px;
     margin-bottom: 90px;
     border-radius: 5em;
 }
+
 h1 {
     text-align: center;
     color: rgb(11, 255, 243);
     font-size: 44px;
     text-decoration: crimson underline;
 }
+
 h1:hover {
     color: rgb(219, 0, 0);
 }
+
 h1::selection {
     color: gold;
 }
+
 td  {
     padding: 5px;
 }
+
 td::selection{
     background-color: rgb(224, 10, 10);
 }
+
 th::selection {
     background-color: rgb(19, 10, 146);
 }
+
 p::selection {
     background-color: rgb(0, 132, 255);
 }
+
 table {
     margin: auto;
     /* max-width: 60%; */
@@ -40,15 +49,18 @@ table {
     border-radius: 4px;
     margin-bottom: 50px;
 }
+
 .flex{
     display: flex;
     flex-direction: row-reverse;
 }
+
 p:hover {
     background-color: rgb(0, 0, 0);
     color: rgb(95, 216, 26);
     transition: 2s;
 }
+
 .table-notes {
     color: rgb(0, 0, 0);
     background-color: orange;
@@ -57,16 +69,19 @@ p:hover {
     border: 3px solid rgb(0, 174, 255);
     border-radius: 10px;
 }
+
 table:hover {
     background-color: rgb(6, 3, 49);
     color: yellow;
     transition: 1s;
 }
+
 .box-4 {
    margin: auto;
    max-width: 60%;
    /* width: 40px; */
 }
+
 form {
    padding: 50px;
    margin: auto;
@@ -78,28 +93,42 @@ form {
    width: 500px;
    transition: 3s;
 }
+
 form:hover {
     background-color: rgb(9, 16, 71);
     color: rgb(18, 240, 240);
 }
+
 .box-5 {
    display: flex;
    color: rgb(0, 130, 139);
    border: rgb(95, 216, 26);
 }
+
 strong {
     color: chocolate
 }
+
 input {
     color: rgb(39, 194, 25);
     background-color: black;
     border-color: rgb(0, 174, 255);
-    border-radius: 8px;
+    border-radius: 4px;
 }
-button {
-    border-color: rgb(197, 117, 12);
-    border-radius: 30em;
+
+.button {
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 0.5em 0.5em;
+    font-size: 1em;
 }
+.button:hover {
+    border-color: #f1ff5c;
+    box-shadow: 0 0.8em 0.7em -0.6em #f1ff5c;
+    transform: translateY(-0.25);
+}
+
 input::selection {
     background-color: rgb(252, 122, 0);
 }
