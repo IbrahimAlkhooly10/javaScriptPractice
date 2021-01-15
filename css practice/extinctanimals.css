@@ -11,6 +11,16 @@ body {
     border-radius: 5em;
 }
 
+nav {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 4px;
+    margin: 50px 0 50px 0;
+    text-align: center;
+    color: rgb(11, 255, 243);
+    font-size: 44px;
+    text-decoration: crimson underline;
+}
+
 h1 {
     font-family: 'Tajawal', sans-serif;
     text-align: center;
@@ -32,7 +42,6 @@ td  {
 }
 
 .pagraf {
-    font-family: 'Dancing Script', cursive;
     color: rgb(35, 13, 158);
     border: rgb(3, 3, 8) 1px solid;
     text-align: center;
@@ -144,6 +153,7 @@ h3 {
 footer {
     background-color: rgb(0, 143, 83);
     color: rgb(8, 3, 7);
+    padding: 0 51px 0 51px;
 }
 
 h4 {
