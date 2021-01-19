@@ -8,10 +8,11 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+
 #testing {
-    background-color: #f5d20b;
-    width: 1050%;
-    /* height: ; */
+    background-color: #0bf5a7;
+    width: 50%;
+    height: 90%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -19,17 +20,15 @@ h1 {
     /* align-items: ; */
     flex-wrap: wrap;
     flex-grow: 1;
-    max-width: 300px;
 }
 
 /*-o */
 div {
     color: chartreuse;
-    font-size: 1em;
 }
 
 #testing div {
-    width: 16px;
+    width: 100px;
     height: 160px;
     text-align: center;
     flex-basis: 215px;
@@ -45,14 +44,17 @@ main {
 
 main .section-1{
     background-color: #be1895;
+    flex: 1;
 }
 
 main .section-2{
     background-color: #1831be;
+    flex: 1;
 }
 
 main .section-3{
     background-color: #18be26;
+    flex: 2;
 }
 
 p {
