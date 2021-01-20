@@ -1,0 +1,19 @@
+body {
+    background-color: darkblue;
+}
+
+nav {
+    font-size: 9.5em;
+}
+
+ul,li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+@media (width: 800px){
+    #container {
+        color: chartreuse;
+    }
+}
