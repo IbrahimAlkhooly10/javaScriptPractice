@@ -1,8 +1,39 @@
 html {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     background-color: #60a9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
+
+.continer-1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box-1 {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.box-2 {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.img {
+    margin-bottom: 25px;
+     max-width: 100%;
+}
+
+
