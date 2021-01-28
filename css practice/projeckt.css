@@ -1,0 +1,49 @@
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
+.continer-1 {
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 1682px;
+    height: 690px;
+}
+
+li {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    /* display: flex; 
+    justify-content: row;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 10%; */
+}
+
+.navbar {
+    display: flex; 
+    justify-content: row;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+header{
+    /* display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 10%; */
+}
+
+    
+
