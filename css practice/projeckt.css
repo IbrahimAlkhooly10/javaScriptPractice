@@ -2,14 +2,16 @@ html {
     font-family: 'Rubik', sans-serif;
 }
 
-.continer-1 {
-    
-}
-
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /*read about this online*/
     margin: 0;
     padding: 0;
+}
+
+.continer-1 {
+    background-image: url("https://www.archbishopofcanterbury.org/sites/abc/files/2020-01/Candle%20small.jpg");
+    height: 800px;
+    background-position: center;
 }
 
 img {
@@ -29,21 +31,33 @@ li {
     padding: 30px 10%; */
 }
 
-.navbar {
+.li {
+    color: white;
+    font-size: 20px;
+    border-right: 2px solid white;
+    margin-right: 30px;
+    padding-right: 20px;
+}
+
+.li :first-child {
+    border: none;
+}
+
+.span{
+    
+    font-size: 40px;
+    font-weight: 22px;
+    color: white;
+}
+
+.span-2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+nav {
     display: flex; 
-    justify-content: row;
     flex-direction: row;
     align-items: center;
     padding: 30px 10%;
 }
-
-header{
-    /* display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    padding: 30px 10%; */
-}
-
-    
-
