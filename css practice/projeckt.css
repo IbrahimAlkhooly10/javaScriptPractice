@@ -35,29 +35,30 @@ li {
     color: white;
     font-size: 20px;
     border-right: 2px solid white;
-    margin-right: 30px;
-    padding-right: 20px;
-}
-
-.li :first-child {
-    border: none;
+    margin-right: 70px;
+    padding-right: 40px;
 }
 
 .span{
-    
-    font-size: 40px;
-    font-weight: 22px;
+    font-size: 50px;
+    font-weight: bold;
     color: white;
+    margin-left: 15px;
+    
+}
+
+.far {
+    margin:20px 0 0 30px;
 }
 
 .span-2 {
     font-size: 30px;
-    font-weight: 300;
+    font-weight: lighter;
 }
 
 nav {
     display: flex; 
     flex-direction: row;
     align-items: center;
-    padding: 30px 10%;
+    padding: 5px 10% 3px 510px;
 }
