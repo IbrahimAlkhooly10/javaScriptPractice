@@ -29,14 +29,15 @@ li {
     flex-direction: row;
     align-items: center;
     padding: 30px 10%; */
+
 }
 
 .li {
     color: white;
     font-size: 20px;
-    border-right: 2px solid white;
     margin-right: 70px;
     padding-right: 40px;
+    display: inline;
 }
 
 .span{
@@ -44,7 +45,6 @@ li {
     font-weight: bold;
     color: white;
     margin-left: 15px;
-    
 }
 
 .far {
@@ -60,5 +60,10 @@ nav {
     display: flex; 
     flex-direction: row;
     align-items: center;
-    padding: 5px 10% 3px 510px;
+    /* padding: 2px 10% 30px 410px; */
+    width: 60%;
+    height: 10px;
+    float: right;
+    display: inline;
+    margin-top: 57px;
 }
