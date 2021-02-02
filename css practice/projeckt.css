@@ -10,29 +10,18 @@ html {
 
 .continer-1 {
     background-image: url("https://www.archbishopofcanterbury.org/sites/abc/files/2020-01/Candle%20small.jpg");
-    height: 800px;
+    /* height: 2000px; */
+    background-size: 100% auto;
     background-position: center;
+    height: 143vh;
 }
 
-img {
-    width: 1682px;
-    height: 690px;
+.img-2 {
+    width: 100%;
+    height: auto;
 }
 
-li {
-    font-weight: 500;
-    font-size: 16px;
-    color: black;
-    text-decoration: none;
-    /* display: flex; 
-    justify-content: row;
-    flex-direction: row;
-    align-items: center;
-    padding: 30px 10%; */
-
-}
-
-.li {
+.top-logo {
     color: white;
     font-size: 20px;
     margin-right: 70px;
@@ -40,11 +29,27 @@ li {
     display: inline;
 }
 
+.nav-li {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    float: right;
+    margin-top: 57px;
+}
+
+
+.nav-li li {
+    margin: auto;
+    color: white;
+    border-right: 3px solid white;
+    padding-right: 30px;
+}
+
 .span{
     font-size: 50px;
     font-weight: bold;
     color: white;
-    margin-left: 15px;
+    margin:0 0 40px 15px;
 }
 
 .far {
@@ -53,17 +58,9 @@ li {
 
 .span-2 {
     font-size: 30px;
-    font-weight: lighter;
+    font-weight: 10;
 }
 
-nav {
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    /* padding: 2px 10% 30px 410px; */
-    width: 60%;
-    height: 10px;
-    float: right;
-    display: inline;
-    margin-top: 57px;
+.box-1 {
+    background-color: lightblue;
 }
