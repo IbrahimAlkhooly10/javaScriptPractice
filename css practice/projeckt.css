@@ -17,8 +17,33 @@ html {
 }
 
 .img-2 {
-    width: 100%;
+    width: 350px;
     height: auto;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin: 1px 0 60px 1011px;
+
+}
+
+.item-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    position: relative; top:130px; right: 100px;
+    color: white;
+    font-size: 3s0px;
+    font-weight: ;
+}
+
+.item-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; top:140px; right: 40px;
+    color: white;
+    font-weight: 33;
+    font-size: 10px;
 }
 
 .top-logo {
@@ -35,6 +60,10 @@ html {
     width: 60%;
     float: right;
     margin-top: 57px;
+}
+
+.nav-li li:hover {
+    color: orange;
 }
 
 
@@ -62,5 +91,6 @@ html {
 }
 
 .box-1 {
-    background-color: lightblue;
+    background-color: rgb(27, 150, 190);
+    padding-top: 10px;
 }
