@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <h1>grid2 testing</h1>
+    </head>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 2em;
+            grid-auto-rows: 100px;
+        }
+        .wrapper div {
+                background-color: #eee;
+                padding: 1em;
+            }
+            .wrapper > div:nth-child(odd){
+                background-color: rgb(130, 214, 196);
+            }
+            h1 {
+                padding-left: 700px;
+                color: rgb(39, 176, 221);
+            }
+    </style>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div><div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+            <div>
+                Lorem ipsum dolor sit.
+            </div>
+        </div>
+    </body>
+</html>

@@ -17,6 +17,7 @@ html {
 }
 
 .img-2 {
+    background-image: linear-gradient(to left top,blue,red);
     width: 350px;
     height: auto;
     border: 2px solid white;
@@ -60,6 +61,15 @@ html {
     width: 60%;
     float: right;
     margin-top: 57px;
+}
+
+.box-2 {
+    background-color: white;
+    margin: 100px 0 100px 0;
+    font-size: 23px;
+}
+
+.num-1 {
 }
 
 .nav-li li:hover {

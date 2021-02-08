@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>grid testing</title>
+        <link rel="stylesheet" href="../css practice/grid.css">
+        <style>
+            .wrapper {
+                display: grid;
+                grid-template-columns: 40% 30% 30%;
+                grid-gap: 1em;
+            }
+            .wrapper div {
+                background-color: #eee;
+                padding: 1em;
+            }
+            .wrapper > div:nth-child(odd){
+                background-color: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+            <h1>grid testing</h1>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repudiandae officia minus 
+                iure aliquam, cumque culpa quam libero enim. Dolore cumque magni, iusto, nihil facere,
+                hic vitae expedita excepturi praesentium rem quibusdam autem laudantium nemo! Aliquam
+                veniam voluptatem impedit, illo numquam in hic quibusdam fugiat asperiores! Perferendis,
+                eos suscipit eligendi perspiciatis autem rerum nihil voluptas maiores unde neque totam ad
+                ea ex animi rem assumenda aperiam sunt quod id 
+                ipsa esse nostrum iusto! Sint facere exercitationem ex hic assumenda saepe.
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora repudiandae officia minus 
+                iure aliquam, cumque culpa quam libero enim. Dolore cumque magni, iusto, nihil facere,
+                hic vitae expedita excepturi praesentium rem quibusdam autem laudantium nemo! Aliquam
+                veniam voluptatem impedit, illo numquam in hic quibusdam fugiat asperiores! Perferendis,
+                eos suscipit eligendi perspiciatis autem rerum nihil voluptas maiores unde neque totam ad
+                ea ex animi rem assumenda aperiam sunt quod id 
+                ipsa esse nostrum iusto! Sint facere exercitationem ex hic assumenda saepe.
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ea nisi
+            voluptates velit recusandae, laboriosam nam repellat qui esse repudiandae obcaecati
+            corrupti blanditiis minus, at, nobis molestias asperiores incidunt neque?
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ea nisi
+            voluptates velit recusandae, laboriosam nam repellat qui esse repudiandae obcaecati
+            corrupti blanditiis minus, at, nobis molestias asperiores incidunt neque?
+        </div>
+    </body>
+</html>
