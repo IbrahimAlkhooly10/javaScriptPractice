@@ -32,6 +32,11 @@ section {
         
 }
 
+.box-num-1 {
+    position: relative; right: 15px;
+    background-color: #2C6697;
+}
+
 p {
     font-family: 'Newsreader', serif;
     font-size: 15px;
@@ -44,14 +49,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: 45%;
-    margin-top: 0px;
     position: relative; top:100px; right: 200px;
     color: white;
     /*font-size: 30px;*/
 }
 
 .img {
-    height: 45%;
+    height: 43%;
     position: relative; bottom: 90px; right: 250px;
 }
 
@@ -60,7 +64,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; top:110px; right:170px;
+    position: relative; bottom: 1px; right: 190px;
     color: white;
     font-weight: 33;
     font-size: 10px;
@@ -91,14 +95,13 @@ p {
 }
 
 .num-1 {
-    padding:70px 0 10px 15px ;
+    padding:47px 0 100px 15px ;
     width: 200px;
     font-family: 'Newsreader', serif;
     font-size: 25px;
-    background-color: #2C6697;
     color: white;
     width: 190px;
-    height: 111px;
+    height: 11px;
     margin-right: 20px;
 }
 
@@ -108,7 +111,7 @@ p {
     width: 200px;
     font-family: 'Newsreader', serif;
     font-size: 25px;
-    background-color: #522a8a;
+    background-color: #5A3096;
     color: white;
     width: 190px;
     height: 111px;
@@ -159,5 +162,6 @@ p {
 
 .box-1 {
     background-image: linear-gradient(to bottom right, #29b4b9 , #2779BC);
-    height:45%;
+    height: 45%;
+    
 }
