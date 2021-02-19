@@ -25,16 +25,15 @@ html {
 
 }
 
-section {
+section {   
 }
 
-.far {
-        
+.icon{
+    position: relative; left: 70px; bottom: 20px;
 }
 
 .box-num-1 {
-    position: relative; right: 15px;
-    background-color: #2C6697;
+    
 }
 
 p {
@@ -88,47 +87,26 @@ p {
 
 .box-2 {
     background-color: white;
-    margin: 100px 0 100px 0;
+    margin: 100px 400px;
     font-size: 25px;
     display: flex;
     justify-content: center;
 }
 
-.num-1 {
+.box-2 div {
     padding:47px 0 100px 15px ;
     width: 200px;
     font-family: 'Newsreader', serif;
     font-size: 25px;
     color: white;
     width: 190px;
-    height: 11px;
-    margin-right: 20px;
-}
-
-.num-2 {
+    height: 43px;
+    margin-right: auto;
+    background-color: #2C6697;
     
-    padding:70px 0 10px 15px ;
-    width: 200px;
-    font-family: 'Newsreader', serif;
-    font-size: 25px;
-    background-color: #5A3096;
-    color: white;
-    width: 190px;
-    height: 111px;
-    margin-right: 20px;
 }
 
-.num-3 {
-    padding:70px 0 10px 15px ;
-    width: 200px;
-    font-family: 'Newsreader', serif;
-    font-size: 25px;
-    background-color: #25BE88;
-    color: white;
-    width: 190px;
-    height: 111px;
-    margin-right: 20px;
-}
+
 
 .nav-li li:hover {
     color: orange;
@@ -164,4 +142,16 @@ p {
     background-image: linear-gradient(to bottom right, #29b4b9 , #2779BC);
     height: 45%;
     
+}
+
+.footer {
+    background-color: #2C6697;
+    height: 50px;
+}
+.span-2 {
+    font-family: 'Newsreader', serif;
+    color: white;
+    font-size: 14px;
+    font-weight: 20;
+    position: relative; top: 19px; left: 30px;
 }
