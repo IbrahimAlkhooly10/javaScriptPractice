@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+}
+
+img {
+    border-color: red solid 3px;    
+    border-radius: 20px;
+    width: 700px;
+    position: relative; left: 55px;
+} 
