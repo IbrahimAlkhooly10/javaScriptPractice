@@ -2,9 +2,64 @@ body {
     background-color: white;
 }
 
+.continer {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 img {
     border-color: red solid 3px;    
     border-radius: 20px;
     width: 700px;
-    position: relative; left: 55px;
+    position: relative; left: 55px; top: 30px;
 } 
+
+.item-1 {
+    position: relative; left: 150px; top: 90px;
+}
+
+.add-1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+}
+
+.add-2 {
+    font-family: 'Roboto', sans-serif;
+    font-size:65px;
+    font-weight:1000;
+    margin: 1px 0 1px 0;
+}
+
+.add-3  {
+    font-family: 'Roboto', sans-serif;
+}
+
+.add-4 {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+}
+
+.add-5{
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+}
+
+.add-6 {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+}
+
+.add-7 {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+}
+
+.fas {
+color: rgb(184, 179, 179);
+}
+
+.item-2 {
+    color: rgb(223, 217, 217);
+    margin-top: 50px;
+    font-size: 60px;
+}
