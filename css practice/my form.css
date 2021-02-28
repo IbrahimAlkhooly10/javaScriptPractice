@@ -1,0 +1,22 @@
+body {
+    background-image: linear-gradient(rgb(13, 112, 241) , rgb(241, 50, 50));
+} 
+
+p {
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 650px;
+}
+
+.add-1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(170, 164, 164);
+    padding-left: 659px;
+}
+
+.add-2 {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 500;
+}
