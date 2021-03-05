@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(to top, rgb(204, 15, 15),rgb(7, 7, 172));
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.add-2 {
+    color: rgb(141, 133, 133);
+}
+
+.the form {
+    margin: auto;
+    margin-top: 50px;
+}
+
+form {
+    background-color: white;
+    border-radius: 4px;
+    width: 30%;
+    text-align: center;
+}
+
+input {
+    width: 350px;
+    height: 30px ;
+    margin-top: 10px;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    padding: 19px 0 10px 0;
+}
+
+.add-3 {
+    padding: 40px 0 59px 0;
+}
+
+.add-4 {
+    color: #B56162;
+}
+
+.add-5 {
+    color: rgb(141, 133, 133);
+}
