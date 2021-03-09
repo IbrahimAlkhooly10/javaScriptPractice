@@ -14,11 +14,13 @@ nav {
 }
 
 .text-1{
-    padding-right: 850px;
+    padding-right: 850px;font-weight: 500;
+    font-weight: 600;
 }
 
 .text-2{
     padding-right: 50px;
+    font-weight: 600;
 }
 .text-3{
     padding-right: 50px;
@@ -28,8 +30,16 @@ nav {
     padding-right: 110px;
 }
 
+.text-5 {
+    font-size: 44px;
+}
+
+.text-6 {
+    color: rgb(46, 46, 46);
+}
+
 img {
-    width: 2000px;
+    width: 1500px;
     height: 310px;
 }
 
@@ -38,15 +48,35 @@ img {
     text-align: center;
 }
 
-.text-5 {
-    font-size: 44px;
-}
 
 .box-2 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-1 {
     font-family: 'Roboto', sans-serif;
     position: absolute;
     top: 37%;
     bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.text-7 {
+    padding: 10px 15px 8px 15px; 
+    background-color: rgb(180, 42, 88);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.box-3 {
+    background-color: white;
+    width: 1500px;
+    height: 600px;
 }
