@@ -78,22 +78,56 @@ img {
 h1 {
     text-align: center;
     font-weight: 150;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .card-img {
-    width: 290px;
-    height: 200PX;
+    width: 340px;
+    height: 240PX;
+}
+
+h3 {
+    text-align: center;
 }
 
 p {
     width: 290px;
+    margin: auto;
+}
+
+.card-1 {
+    border: rgb(172, 168, 168) 2px solid;
+    height: 500px;
+}
+
+.card-2 {
+    border: rgb(172, 168, 168) 2px solid;
+    height: 500px;
+}
+
+.card-3 {
+    border: rgb(172, 168, 168) 2px solid;
+    height: 500px;
 }
 
 .box-3 {
     font-family: 'Roboto', sans-serif;
     background-color: white;
-    width: 1500px;
-    height: 600px;
+    height: 400px;
     font-weight: 100;
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 2.4em;
+}
+
+.cards-btn {
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 21em;
+    padding-top: 0px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
 }
