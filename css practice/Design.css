@@ -120,14 +120,3 @@ p {
     grid-column-gap: 2.4em;
 }
 
-.cards-btn {
-    display: flex;
-    justify-content: center;
-    grid-column-gap: 21em;
-    padding-top: 0px;
-}
-
-.btn {
-    display: flex;
-    justify-content: center;
-}
