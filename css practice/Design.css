@@ -120,3 +120,13 @@ p {
     grid-column-gap: 2.4em;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.box-4 {
+    height: 50%;
+    background-color: #D4B080;
+    margin-top: 127px;
+}
