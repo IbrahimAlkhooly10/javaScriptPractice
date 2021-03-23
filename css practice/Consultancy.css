@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    
 }
 
 nav {
@@ -98,22 +97,17 @@ p {
     margin: auto;
 }
 
-.card-1 {
+.card-wrap{
     border: rgb(224, 217, 217) 2px solid;
-    border-radius: 5px;
-    height: 470px;
+    border-radius: 0 0 10px 10px;
+    height: 220px;
+    margin: auto;
 }
 
-.card-2 {
-    border: rgb(224, 217, 217) 2px solid;
-    border-radius: 5px;
-    height: 470px;
-}
+.card-wrap {
+    background-color: #F8FAFB;
+    max-height: 1px;
 
-.card-3 {
-    border: rgb(224, 217, 217) 2px solid;
-    border-radius: 5px;
-    height: 470px;
 }
 
 .box-3 {
@@ -157,9 +151,16 @@ p {
     align-items: center;
 }
 
-/* .div-btn {
-    width: 140px;
-} */
+.div-btn {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-btn {
+    background-color: #F7F7F7;
+}
 
 .btn {
     height: 29px;
@@ -169,7 +170,7 @@ p {
     color: rgb(206, 24, 145);
     position: relative;
     bottom: 0; 
-    justify-content: center;
+    
 }
 
 footer {
