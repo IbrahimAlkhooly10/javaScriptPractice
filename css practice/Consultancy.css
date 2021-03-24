@@ -100,14 +100,12 @@ p {
 .card-wrap{
     border: rgb(224, 217, 217) 2px solid;
     border-radius: 0 0 10px 10px;
-    height: 220px;
+    height: 215px;
     margin: auto;
 }
 
 .card-wrap {
     background-color: #F8FAFB;
-    max-height: 1px;
-
 }
 
 .box-3 {
