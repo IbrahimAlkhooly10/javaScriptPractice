@@ -104,10 +104,6 @@ p {
     margin: auto;
 }
 
-.card-wrap {
-    background-color: #F8FAFB;
-}
-
 .box-3 {
     font-family: 'Roboto', sans-serif;
     background-color: white;
@@ -149,15 +145,28 @@ p {
     align-items: center;
 }
 
-.div-btn {
+.div-btn-1 {
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F8FAFB;
+}
+.div-btn-2 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FAFB;
 }
 
-.wrap-btn {
-    background-color: #F7F7F7;
+.div-btn-3 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FAFB;
+    min-height: 1px;
 }
 
 .btn {
