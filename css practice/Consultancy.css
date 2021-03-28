@@ -117,7 +117,7 @@ p {
 .prg-1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
-    word-spacing: 2px;
+    word-spacing: 2.3px;
     align-items: center;
     justify-content: center;
     padding: 2px 0 10px 0;
@@ -125,7 +125,7 @@ p {
 
 .prg-2 {
     font-family: 'Open Sans', sans-serif;
-    word-spacing: 2px;
+    word-spacing: 2.8px;
     align-items: center;
     justify-content: center;
 }
@@ -145,16 +145,15 @@ p {
 }
 
 .div-btn {
-    width: auto;
-    display: flex;
+    /*width: auto;*/ 
+    display: grid;
     justify-content: center;
-    align-items: center;
+    align-self: center;
     /*background-color: #497185;*/
-    
 }
 
 .btn {
-    height: 29px;
+    height: 31px;
     width: 128px;
     border: 2px solid rgb(206, 24, 145);
     border-radius: 4px;
@@ -164,7 +163,7 @@ p {
 
 footer {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(240, 236, 236);
+    background-color: rgb(240, 238, 238);
     height: 50px;
     text-align: center;
     display: flex;
