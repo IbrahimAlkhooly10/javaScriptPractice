@@ -146,10 +146,9 @@ p {
 
 .div-btn {
     /*width: auto;*/ 
-    display: grid;
+    display: flex;
     justify-content: center;
-    align-self: center;
-    /*background-color: #497185;*/
+    /*background-color: #49x7185;*/
 }
 
 .btn {
