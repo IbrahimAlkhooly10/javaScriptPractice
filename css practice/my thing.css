@@ -1,3 +1,31 @@
 body {
-    background-color:  black;
+    background-color: rgb(226, 214, 214);
+    margin: 0;
+}
+
+nav {
+    background-color: rgb(79, 238, 185);
+    height: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    font-size: 25px;
+    position: sticky;
+    top: 0px;
+}
+
+nav .item-1 {
+    padding: 0 0 0 110px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav:hover {
+    color: rgb(170, 116, 35);
+    transition: 2s;
+}
+
+.img-1 {
+    height: 420px;
+    width: 1518px;
 }
