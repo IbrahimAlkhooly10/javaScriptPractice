@@ -29,3 +29,44 @@ nav:hover {
     height: 420px;
     width: 1518px;
 }
+
+.div-prg {
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.prg-1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.prg-2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.prg-2:hover {
+    color: rgb(12, 34, 3);
+}
+
+.div-btn-1 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-1 {
+    padding: 7px 9px 7px 9px;
+    background-color: rgb(10, 206, 255);
+    border-radius: 5px;
+}
+a:link {
+    text-decoration: none;
+}
+
