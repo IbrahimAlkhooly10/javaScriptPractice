@@ -28,18 +28,19 @@ nav:hover {
 .img-1 {
     height: 420px;
     width: 1518px;
+    filter: blur(5px);
 }
 
 .div-prg {
+    font-family: 'Rubik', sans-serif;
     position: absolute;
     top: 12%;
     left: 30%;
     bottom: 30px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .prg-1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 500;
 }
 
@@ -55,18 +56,31 @@ nav:hover {
 
 .div-btn-1 {
     position: absolute;
-    top: 40%;
-    left: 45%;
+    top: 45%;
+    left: 49%;
     bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
 .btn-1 {
-    padding: 7px 9px 7px 9px;
-    background-color: rgb(10, 206, 255);
+    padding: 9px 11px 9px 11.px;
+    background-color: rgb(219, 211, 208);
     border-radius: 5px;
 }
 a:link {
     text-decoration: none;
+}
+
+.div-imges {
+    background-color: rgb(255, 255, 255);
+}
+
+.imges {
+    width: 20%;
+    height: 27%;
+    border: 1px rgb(165, 162, 162) solid;
+    border-radius: 3px;
+    padding: 4px 4px;
+    margin: 30px 30px;
 }
 
