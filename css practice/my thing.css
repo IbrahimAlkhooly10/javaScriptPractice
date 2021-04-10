@@ -6,6 +6,7 @@ body {
 nav {
     background-color: rgb(79, 238, 185);
     height: 60px;
+    width: 102%;
     list-style-type: none;
     display: flex;
     justify-content: row;
@@ -21,14 +22,15 @@ nav .item-1 {
 }
 
 nav:hover {
+    background-color: black;
     color: rgb(170, 116, 35);
     transition: 2s;
 }
 
 .img-1 {
     height: 420px;
-    width: 1518px;
-    filter: blur(5px);
+    width: 1528px;
+    filter: blur(6px);
 }
 
 .div-prg {
@@ -57,16 +59,20 @@ nav:hover {
 .div-btn-1 {
     position: absolute;
     top: 45%;
-    left: 49%;
+    left: 47%;
     bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
 
 .btn-1 {
-    padding: 9px 11px 9px 11.px;
-    background-color: rgb(219, 211, 208);
-    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: rgb(255, 0, 65);
+    width: 150px;
+    height: 16%;
+    border: none;
+    border-radius: 4px;
 }
+
 a:link {
     text-decoration: none;
 }
@@ -84,3 +90,30 @@ a:link {
     margin: 30px 30px;
 }
 
+.box-2 {
+    font-family: 'Rubik', sans-serif;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+}
+
+h3 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 1px;
+    font-size: x-large;
+}
+
+.card-img {
+    border-radius: 90%;
+    width: 30%;
+    height: 30%;
+}
+
+.card-prg {
+    width: 58%;
+    margin: auto;
+    padding-top: 20px;
+}
