@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(226, 214, 214);
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(235, 235, 235);
     margin: 0;
 }
 
@@ -18,7 +19,6 @@ nav {
 
 nav .item-1 {
     padding: 0 0 0 110px;
-    font-family: 'Roboto', sans-serif;
 }
 
 nav:hover {
@@ -90,7 +90,7 @@ a:link {
     margin: 30px 30px;
 }
 
-.box-2 {
+.box-3 {
     font-family: 'Rubik', sans-serif;
     height: 50%;
     display: flex;
@@ -100,7 +100,7 @@ a:link {
 }
 
 h3 {
-    font-family: 'Rubik', sans-serif;
+    
     text-align: center;
     padding-top: 1px;
     font-size: x-large;
@@ -109,11 +109,35 @@ h3 {
 .card-img {
     border-radius: 90%;
     width: 30%;
-    height: 30%;
+    height: 37%;
 }
 
 .card-prg {
     width: 58%;
     margin: auto;
     padding-top: 20px;
+}
+
+.box-2 {
+    background-color: rgb(20, 34, 33);
+    width: auto;
+    height: 70%;
+    
+}
+
+.box-2-prg {
+    width: 33%;
+    padding: 20px;
+    color : rgb(51, 153, 153);
+    border: rgb(255, 0, 76) 5px solid;
+    border-radius: 5px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.box-2-prg:hover {
+    background-color: rgb(6, 25, 129);
+    color: rgb(192, 189, 189);
+    transition: 2s;
 }
