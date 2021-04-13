@@ -122,22 +122,32 @@ h3 {
     background-color: rgb(20, 34, 33);
     width: auto;
     height: 70%;
-    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .box-2-prg {
-    width: 33%;
+    font-family: 'PT Sans', sans-serif;
+    width: 43%;
     padding: 20px;
-    color : rgb(51, 153, 153);
-    border: rgb(255, 0, 76) 5px solid;
+    height: 43%;
+    color : rgb(207, 207, 207);
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 19px;
     letter-spacing: 1px;
     word-spacing: 3px;
 }
 
-.box-2-prg:hover {
-    background-color: rgb(6, 25, 129);
-    color: rgb(192, 189, 189);
-    transition: 2s;
+.box-2-img {
+    width: 30%;
+}
+
+.elephant {
+    width: 90%;
+    height: 60%;
+    border: rgb(134, 130, 130) 3px solid;
+    border-radius: 4px;
+    padding: 0;
 }
