@@ -151,3 +151,17 @@ h3 {
     border-radius: 4px;
     padding: 0;
 }
+
+.box-4 {
+    background-image: linear-gradient(to bottom right,#b0eff1, rgb(255, 133, 133));
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td  {
+    background-image: linear-gradient(to bottom right,#92f1f1, rgb(48, 185, 35));
+    padding: 10px;
+    text-align: center;
+}
