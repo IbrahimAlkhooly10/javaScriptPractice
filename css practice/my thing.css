@@ -7,7 +7,7 @@ body {
 nav {
     background-color: rgb(79, 238, 185);
     height: 60px;
-    width: 102%;
+    width: 100%;
     list-style-type: none;
     display: flex;
     justify-content: row;
@@ -21,15 +21,10 @@ nav .item-1 {
     padding: 0 0 0 110px;
 }
 
-nav:hover {
-    background-color: black;
-    color: rgb(170, 116, 35);
-    transition: 2s;
-}
 
 .img-1 {
     height: 420px;
-    width: 1528px;
+    width: 100%;
     filter: blur(6px);
 }
 
@@ -82,8 +77,8 @@ a:link {
 }
 
 .imges {
-    width: 20%;
-    height: 27%;
+    width: 19%;
+    height: 26%;
     border: 1px rgb(165, 162, 162) solid;
     border-radius: 3px;
     padding: 4px 4px;
@@ -96,7 +91,15 @@ a:link {
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 10%;
+    padding: 70px 0 ;
+}
+
+.card-blog {
+    background-color: white;
+    margin-left: 90px;
+    border-radius: 20px;
+    height: 110%;
+    padding-top: 17px;
 }
 
 h3 {
@@ -108,12 +111,12 @@ h3 {
 
 .card-img {
     border-radius: 90%;
-    width: 30%;
-    height: 37%;
+    width: 38%;
+    height: 39%;
 }
 
 .card-prg {
-    width: 58%;
+    width: 69%;
     margin: auto;
     padding-top: 20px;
 }
@@ -144,7 +147,7 @@ h3 {
     width: 30%;
 }
 
-.elephant {
+.wolf {
     width: 90%;
     height: 60%;
     border: rgb(134, 130, 130) 3px solid;
@@ -161,7 +164,7 @@ h3 {
 }
 
 td  {
-    background-image: linear-gradient(to bottom right,#92f1f1, rgb(48, 185, 35));
+    background-image: linear-gradient(to bottom right,#92f1f1, rgb(231, 112, 178));
     padding: 10px;
     text-align: center;
 }
