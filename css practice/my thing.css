@@ -95,6 +95,7 @@ a:link {
 }
 
 .card-blog {
+    font-family: 'Heebo', sans-serif;
     background-color: white;
     margin-left: 90px;
     border-radius: 20px;
@@ -156,15 +157,25 @@ h3 {
 }
 
 .box-4 {
-    background-image: linear-gradient(to bottom right,#b0eff1, rgb(255, 133, 133));
+    font-family: 'Noto Sans KR', sans-serif;
     height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(255, 255, 255);
 }
 
 td  {
-    background-image: linear-gradient(to bottom right,#92f1f1, rgb(231, 112, 178));
-    padding: 10px;
-    text-align: center;
+    padding: 10px 110px 10px 10px;
 }
+
+th {
+    background-color: rgb(84, 230, 139);
+    padding: 10px 10px;
+}
+
+tr:nth-child(2n+2){
+    background-color: rgb(231, 231, 231);
+}
+
+
