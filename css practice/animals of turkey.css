@@ -87,11 +87,11 @@ a:link {
 
 .box-3 {
     font-family: 'Rubik', sans-serif;
-    height: 50%;
+    height: 57%;
     display: flex;
     justify-content: center;
     text-align: center;
-    padding: 70px 0 ;
+    padding: 70px 0 8% 0;
 }
 
 .card-blog {
@@ -162,7 +162,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to bottom left, rgb(39, 189, 139) , rgb(32, 168, 105));
 }
 
 td  {
@@ -170,12 +170,34 @@ td  {
 }
 
 th {
-    background-color: rgb(84, 230, 139);
+    background-color: rgb(16, 209, 97);
     padding: 10px 10px;
 }
 
 tr:nth-child(2n+2){
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(204, 197, 197);
 }
+
+.box-5 {
+    height: 73%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.box-5 li {
+    border: rgb(180, 180, 187) 1px solid;
+    border-radius: 3px;
+    width: 30%;
+    padding:10px 0 10px 30px;
+}
+
+
+
+
+
+
 
 
