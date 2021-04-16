@@ -1,5 +1,5 @@
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans HK', sans-serif;
     background-color: rgb(235, 235, 235);
     margin: 0;
 }
@@ -86,6 +86,10 @@ a:link {
 }
 
 .box-3 {
+    
+}
+
+.cards-wrap {
     font-family: 'Rubik', sans-serif;
     height: 57%;
     display: flex;
@@ -96,6 +100,7 @@ a:link {
 
 .card-blog {
     font-family: 'Heebo', sans-serif;
+    font-weight: 600;
     background-color: white;
     margin-left: 90px;
     border-radius: 20px;
@@ -124,19 +129,18 @@ h3 {
 
 .box-2 {
     background-color: rgb(20, 34, 33);
-    width: auto;
+    width: 100%;
     height: 70%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     justify-content: space-around;
     align-items: center;
 }
 
 .box-2-prg {
     font-family: 'PT Sans', sans-serif;
-    width: 43%;
-    padding: 20px;
-    height: 43%;
+    width: 45%;
+    /* height: 43%; */
     color : rgb(207, 207, 207);
     border-radius: 5px;
     font-size: 19px;
@@ -145,15 +149,15 @@ h3 {
 }
 
 .box-2-img {
-    width: 30%;
+    width: 40%;
 }
 
 .wolf {
-    width: 90%;
-    height: 60%;
+    width: 100%;
+    /* height: 60%; */
     border: rgb(134, 130, 130) 3px solid;
     border-radius: 4px;
-    padding: 0;
+
 }
 
 .box-4 {
@@ -178,13 +182,21 @@ tr:nth-child(2n+2){
     background-color: rgb(204, 197, 197);
 }
 
+
 .box-5 {
-    height: 73%;
+    height: 83%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
     list-style-type: none;
     font-size: 20px;
+    margin-top: 50px;
 }
 
 .box-5 li {
