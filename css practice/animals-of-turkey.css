@@ -2,6 +2,7 @@ body {
     font-family: 'Noto Sans HK', sans-serif;
     background-color: rgb(235, 235, 235);
     margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -23,17 +24,28 @@ nav .item-1 {
 
 
 .img-1 {
-    height: 420px;
-    width: 100%;
-    filter: blur(6px);
+    /* filter: blur(0px); */
+    
+}
+
+.div-img {
+    
+}
+
+.box-1 {
+    background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)), url("https://factanimal.com/wp-content/uploads/2018/08/lion-facts.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    padding-top: 22px;
+    
 }
 
 .div-prg {
     font-family: 'Rubik', sans-serif;
-    position: absolute;
-    top: 12%;
-    left: 30%;
-    bottom: 30px;
+    color: rgb(236, 162, 24);
+    height: 370px;
+    text-align: center;
+    z-index: 9999;
 }
 
 .prg-1 {
@@ -42,13 +54,13 @@ nav .item-1 {
 }
 
 .prg-2 {
-    display: flex;
-    justify-content: center;
-    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    font-size: 25px;
 }
 
-.prg-2:hover {
-    color: rgb(12, 34, 3);
+.btn-1:hover {
+    background-color: blue;
+    transition: 1s;
 }
 
 .div-btn-1 {
@@ -62,8 +74,8 @@ nav .item-1 {
 .btn-1 {
     letter-spacing: 1px;
     background-color: rgb(255, 0, 65);
-    width: 150px;
-    height: 16%;
+    width: 145px;
+    height: 14%;
     border: none;
     border-radius: 4px;
 }
@@ -82,11 +94,7 @@ a:link {
     border: 1px rgb(165, 162, 162) solid;
     border-radius: 3px;
     padding: 4px 4px;
-    margin: 30px 30px;
-}
-
-.box-3 {
-    
+    margin: 40px 35px;
 }
 
 .cards-wrap {
@@ -169,17 +177,35 @@ h3 {
     background-image: linear-gradient(to bottom left, rgb(39, 189, 139) , rgb(32, 168, 105));
 }
 
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: solid 1px rgb(112, 112, 112);
+}
+
+
+
 td  {
     padding: 10px 110px 10px 10px;
 }
 
+tbody tr:nth-child(odd){
+    background-color: #FFFFFF;
+}
+
+
 th {
-    background-color: rgb(16, 209, 97);
+    border-right: rgb(180, 180, 187) 1px solid;
+    background-color: rgb(16, 132, 209);
     padding: 10px 10px;
+    color: white;
+    text-align: left;
 }
 
 tr:nth-child(2n+2){
-    background-color: rgb(204, 197, 197);
+    background-color: #EEEEEE;
 }
 
 
@@ -199,12 +225,17 @@ ul {
     margin-top: 50px;
 }
 
-.box-5 li {
-    border: rgb(180, 180, 187) 1px solid;
-    border-radius: 3px;
-    width: 30%;
-    padding:10px 0 10px 30px;
+.box-5 {
+    
 }
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
 
 
 
