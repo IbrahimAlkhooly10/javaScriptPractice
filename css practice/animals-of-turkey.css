@@ -1,6 +1,6 @@
 body {
     font-family: 'Noto Sans HK', sans-serif;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(214, 208, 208);
     margin: 0;
     padding: 0;
 }
@@ -60,7 +60,7 @@ nav .item-1 {
 
 .btn-1:hover {
     background-color: blue;
-    transition: 1s;
+    transition: 1.5s;
 }
 
 .div-btn-1 {
@@ -210,7 +210,7 @@ tr:nth-child(2n+2){
 
 
 .box-5 {
-    height: 83%;
+    height: 75%;
 }
 
 h2 {
@@ -226,7 +226,8 @@ ul {
 }
 
 .box-5 {
-    
+    margin-top: 50px;
+    height: 50%;
 }
 
 form {
@@ -235,6 +236,38 @@ form {
     flex-direction: column-reverse;
     align-items: center;
 }
+
+.the-form {
+    margin-top: 20px;
+    width: 25%;
+    height: 35px;
+    border: rgb(17, 14, 15) solid 3px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right , rgb(206, 212, 206) , rgb(238, 240, 238));
+}
+
+.box-6 {
+    height: 50%;
+    background-color: #2F3335;
+    color: rgb(233, 227, 227);
+    word-spacing: 2px;
+}
+
+footer {
+}
+
+.about-me {
+    width: 20%;
+    height: auto;
+    float: right;
+    margin-right: 20%;
+}
+
+.footer-p {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
