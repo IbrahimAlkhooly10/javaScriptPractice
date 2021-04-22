@@ -212,7 +212,6 @@ form {
     align-items: center;
 }
 
-
 .the-form {
     margin-top: 20px;
     width: 25%;
@@ -240,13 +239,16 @@ footer {
     color: rgb(212, 212, 218);
 }
 
-
-
-
-
-
-
-
-
-
-
+@media (width: 360px){
+    .box-2-prg {
+        width: 500%;
+        align-items: center;
+    }
+    .images {
+        width: 43.6%;
+        height: 15%;
+    }
+    nav {
+        display: hidden;
+    }
+}
