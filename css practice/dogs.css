@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(97, 224, 38);
+    margin: 0;
+}
+
+.nav-wbs {
+    background-color: white;
+    height: 10%;
+}
+
+nav {
+    align-items: center;
+}
+
+.nav-wbs ul {
+    list-style: none;
+}
+
+.li-nav-1 {
+    color: rgb(189, 185, 185);
+    font-size: 50px;
+    display: inline;
+    margin-left: 40px;
+}
+
+.li-nav-2 {
+    float: right;
+    padding: 30px;
+    margin: 0 30px 0 0;
+}
