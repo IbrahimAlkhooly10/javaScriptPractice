@@ -1,0 +1,16 @@
+h1 {
+    color: blue;
+    border: solid 2px ;
+    width: 419px;
+    padding: 40px;
+    margin: 16px auto 0px auto;
+}
+h3{
+    text-decoration: line-through underline overline wavy brown;
+}
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    box-shadow: 1px 1px 10px 5px blue;
+}
